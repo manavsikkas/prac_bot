@@ -3,4 +3,8 @@
 
     <xacro:include filename="$(find prac_bot)/description/robot_core.xacro" />
 
+    <xacro:include filename="$(find prac_bot)/description/gazebo_control.xacro" />
+
+    <xacro:include filename="$(find prac_bot)/description/lidar.xacro" />
+
 </robot>
